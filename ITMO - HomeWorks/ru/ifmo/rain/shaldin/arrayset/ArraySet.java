@@ -6,7 +6,7 @@ public class ArraySet<E> extends AbstractSet<E> implements SortedSet<E> {
     private final List<E> array;
     private final Comparator<? super E> comparator;
 
-    public ArraySet() { // Сделать со всеми конструкторами через this(), убрать копипасту.
+    public ArraySet() {
         this(Collections.emptyList(), null);
     }
 
